@@ -59,6 +59,9 @@ Confirm that you have set the Git username correctly:
 $ git config --global user.name
 > Mona Lisa
 
+$ git config --global credential.helper cache
+$ git config --global credential.helper store
+
 ## 1.2 项目结构
 ### 1.2.1 根： 放readme, 主程序
 ### 1.2.2 /gen_image： 造图片
