@@ -24,7 +24,7 @@ def MakeImg(textString, f, outputFileName, png_size = (100, 100), offset= (16, 8
 
 MS = (100, 100)
 OFS = (1,1)
-font = ImageFont.truetype("/usr/lib/jvm/java-8-oracle/jre/lib/fonts/LucidaSansRegular.ttf", 32)
+font = ImageFont.truetype("/usr/share/fonts/truetype/ubuntu/UbuntuMono-B.ttf", 32)
 
 
 MakeImg("1", font, "test.png", MS, OFS)
