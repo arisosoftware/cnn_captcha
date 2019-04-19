@@ -73,3 +73,47 @@ $ git config --global credential.helper store
 ### 1.3.3 学习mask rcnn,看看这个方式来处理会不会更好。
 ### 1.3.4 MNIST 数据集
 
+## 实际执行情况
+
+### 2019 Apr 16 天气 Clear	6°	2°	0%   38%	WNW 24 km/h
+
+
+股票价格几何布朗运动模型的理论错误及纠正 - 高宏的文章 - 知乎
+https://zhuanlan.zhihu.com/p/62681674
+
+
+### 2019 Apr 18 天气 THU EVENING Risk of a thunderstorm 16°C FEELS LIKE	14 
+               阴天
+      .--.     12..13 °C      
+   .-(    ).   ↑ 9 km/h       
+  (___.__)__)  14 km          
+               0.0 mm         
+####如何让ubuntu支持2个鼠标，
+#####第一步：  xinput create-master point2
+这样就会有2个鼠标，但是那新的鼠标还不会动。
+#####第2步：   xinput reattach  <新鼠标的id>  随便那个物理鼠标id
+#####比如下面这个例子中，就应该输入 xinput reattach 19 9..
+root@fun-OptiPlex-790:~# xinput
+⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+⎜   ↳ Logitech USB Receiver                   	id=9	[slave  pointer  (2)]
+⎜   ↳ Logitech USB Receiver                   	id=10	[slave  pointer  (2)]
+⎜   ↳ Logitech M325                           	id=11	[slave  pointer  (2)]
+⎜   ↳ MOSART Semi. 2.4G Keyboard Mouse        	id=13	[slave  pointer  (2)]
+⎜   ↳ SEM USB Keyboard                        	id=16	[slave  pointer  (2)]
+⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+    ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+    ↳ Power Button                            	id=6	[slave  keyboard (3)]
+    ↳ Video Bus                               	id=7	[slave  keyboard (3)]
+    ↳ Power Button                            	id=8	[slave  keyboard (3)]
+    ↳ Logitech USB Receiver                   	id=14	[slave  keyboard (3)]
+    ↳ MOSART Semi. 2.4G Keyboard Mouse        	id=12	[slave  keyboard (3)]
+    ↳ MOSART Semi. 2.4G Keyboard Mouse        	id=15	[slave  keyboard (3)]
+    ↳ SEM USB Keyboard                        	id=17	[slave  keyboard (3)]
+    ↳ SEM USB Keyboard                        	id=18	[slave  keyboard (3)]
+⎡ Point2 pointer                          	id=19	[master pointer  (20)]
+⎜   ↳ Point2 XTEST pointer                    	id=21	[slave  pointer  (19)]
+⎣ Point2 keyboard                         	id=20	[master keyboard (19)]
+    ↳ Point2 XTEST keyboard                   	id=22	[slave  keyboard (20)]
+
+
