@@ -71,7 +71,7 @@ $ git config --global credential.helper store
 ### 1.3.1 把例子跑起来， 预计2 天
 ### 1.3.2 修改和调整 ， 预计1 周
 ### 1.3.3 学习mask rcnn,看看这个方式来处理会不会更好。
-
+### 1.3.4 MNIST 数据集
 
 ## 实际执行情况
 
