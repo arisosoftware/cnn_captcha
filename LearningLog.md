@@ -117,3 +117,22 @@ root@fun-OptiPlex-790:~# xinput
     ↳ Point2 XTEST keyboard                   	id=22	[slave  keyboard (20)]
 
 
+重磅！最快人脸检测库开源 - Amusi的文章 - 知乎
+https://zhuanlan.zhihu.com/p/59270108
+
+https://github.com/OAID
+https://github.com/ShiqiYu/libfacedetection
+
+
+https://www.wenlc.com/weixin/20180711A1SIUR00.html
+
+##天氣
+    \  /       局部多云
+  _ /"".-.     3..6 °C        
+    \_(   ).   → 13 km/h      
+    /(___(__)  14 km          
+               0.0 mm         
+
+
+rm  /etc/apt/sources.list.d/*
+
